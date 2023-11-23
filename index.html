@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Projeto3</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg stick-top p-4 fixed-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle">GP centro automotivo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-oficina">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Sobre a oficina
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#espaco">
+                            <i class="bi bi-house-door-fill me-1"></i>
+                            Espaço
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#equipamentos">
+                            <i class="bi bi-tools me-1"></i>
+                        Equipamento
+                        </a>                        
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#orcamento">
+                            <i class="bi bi-person-lines-fill me-1"></i>
+                        Orçamento
+                        </a>                        
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-oficina">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <img src="./imagens/slide/auto-repair-shop-1954636_1920.jpg" alt="concertamdo fusca">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="./imagens/slide/man-362150_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="./imagens/slide/winter-tires-2861853_1920.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="./imagens/slide/wrench-2619217_1920.jpg" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/_e18f8e10-60a5-497a-b660-6e48bc4b798e.jpeg" class="d-block w-100 rounded" alt="foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a oficina</span></h2>
+                            <p>
+                                Na movimentada cidade fictícia de Autópolis, a Oficina Mecânica Veloz é um refúgio confiável para motoristas em apuros. Com uma equipe de especialistas apaixonados por carros, a oficina oferece serviços desde reparos simples até personalizações arrojadas. O ambiente é impregnado com o aroma característico de graxa e combustível, enquanto as ferramentas ressoam em um coro de eficiência. Clientes satisfeitos testemunham a magia da transformação, saindo com veículos renovados e prontos para conquistar as estradas de Autópolis.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                
+                                A Oficina Mecânica Veloz, em Autópolis, é um espaço amplo e organizado, onde a paixão por carros se traduz em serviços especializados. Equipada com elevadores hidráulicos e ferramentas modernas, a oficina oferece diagnósticos precisos e reparos eficientes. Uma área dedicada à personalização permite projetos criativos. O ambiente, permeado por cheiros familiares, celebra a fusão entre habilidade técnica e paixão automotiva.
+                            </p>
+                            <ul>
+                                <li>Troca de Óleo e Manutenção Preventiva</li>
+                                <li>Reparos Mecânicos Gerais</li>
+                                <li>Serviços de Alinhamento e Balanceamento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="espaco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Todos os <span class="text-colored">serviçoes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/Quandoprecisotrocaroleodocaminho_5cf56ff8a1c8d.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-wrench"></i>
+                            Manutenção Preventiva
+                        </h3>
+                        <p>A manutenção preventiva em automóveis é essencial para garantir um desempenho consistente e evitar problemas futuros. Trocas regulares de óleo, verificação de fluidos, inspeção de freios e alinhamento são práticas cruciais. Investir nesse cuidado proativo não só aumenta a vida útil do veículo, mas também promove segurança e economia a longo prazo.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/MECANICA-GERAL-corte.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-wrench-adjustable-circle-fill bi bi-truck-flatbed"></i>
+                            Mecânicos Gerais
+                        </h3>
+                        <p>A manutenção geral em automóveis é um procedimento abrangente que engloba inspeções e ajustes em todos os sistemas do veículo. Inclui troca de óleo, revisão de freios, alinhamento, balanceamento e verificação de fluidos. Essencial para garantir a confiabilidade do carro, prevenindo falhas e assegurando um funcionamento eficiente em todas as condições.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/serviços/alinhamento-e-balanceamento-2corte.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class=" bi bi-truck-flatbed"></i>
+                            Alinhamento e Balanceamento
+                        </h3>
+                        <p>O alinhamento e balanceamento são procedimentos cruciais para a estabilidade e desempenho dos veículos. O alinhamento ajusta a geometria das rodas, garantindo direção precisa e evitando desgaste irregular dos pneus. O balanceamento equilibra as rodas, prevenindo vibrações desconfortáveis e prolongando a vida útil dos pneus. Essas práticas promovem uma condução segura e eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="equipamentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">equipamentos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Injecao-eletronica" class="fw-bold text-start nav-link text-colored active">Injeção eletronica</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#computador" class="fw-bold text-start nav-link text-colored ">computador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alinhamento" class="fw-bold text-start nav-link text-colored ">alinhamento</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#manutencao" class="fw-bold text-start nav-link text-colored ">manutenção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ar-concionado" class="fw-bold text-start nav-link text-colored ">ar concionado</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Injecao-eletronica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/injecao-eletronica.jpg" alt="Programação">
+                                        <h5 class="text-colored fw-bold mt-2">Programação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/limpeza-de-bico-preco.jpg" alt="limpeza">
+                                        <h5 class="text-colored fw-bold mt-2">limpeza de bico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/injecao-eletronica.jpg" alt="Programação">
+                                        <h5 class="text-colored fw-bold mt-2">Programação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/limpeza-de-bico-preco.jpg" alt="limpeza">
+                                        <h5 class="text-colored fw-bold mt-2">limpeza de bico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/injecao-eletronica.jpg" alt="Programação">
+                                        <h5 class="text-colored fw-bold mt-2">Programação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/limpeza-de-bico-preco.jpg" alt="limpeza">
+                                        <h5 class="text-colored fw-bold mt-2">limpeza de bico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/injecao-eletronica.jpg" alt="Programação">
+                                        <h5 class="text-colored fw-bold mt-2">Programação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/injeção/limpeza-de-bico-preco.jpg" alt="limpeza">
+                                        <h5 class="text-colored fw-bold mt-2">limpeza de bico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="computador">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/computador/scanner-auto-500.webp" alt="leitura geral">
+                                        <h5 class="text-colored fw-bold mt-2">Leitura Geral</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/computador/Scanner-automotivo-capa-763x445-1.jpg.webp" alt="parcial">
+                                        <h5 class="text-colored fw-bold mt-2">Leitura Parcial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="alinhamento">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/alinhamento/servico-autos-carros-alinhamento_201812268437256-ScaleDownProportional.webp" alt="lazer">
+                                        <h5 class="text-colored fw-bold mt-2">Alinhamento a lazer</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/alinhamento/alinhamento-3d-768x432.jpg" alt="3d">
+                                        <h5 class="text-colored fw-bold mt-2">alinhamento 3D</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/alinhamento/servico-autos-carros-alinhamento_201812268437256-ScaleDownProportional.webp" alt="lazer">
+                                        <h5 class="text-colored fw-bold mt-2">Alinhamento a lazer</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/alinhamento/alinhamento-3d-768x432.jpg" alt="3d">
+                                        <h5 class="text-colored fw-bold mt-2">alinhamento 3D</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                    </div>  
+                                </div>
+                        </div>
+                        <div class="tab-pane" id="manutencao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/manutenção/zf-disco-freio-01.png" alt="troca de disco">
+                                    <h5 class="text-colored fw-bold mt-2">Disco de freio</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/manutenção/ed-273-arrefecimento.png" alt="Salmão">
+                                    <h5 class="text-colored fw-bold mt-2">Radiador</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/manutenção/zf-disco-freio-01.png" alt="troca de disco">
+                                    <h5 class="text-colored fw-bold mt-2">Disco de freio</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/manutenção/ed-273-arrefecimento.png" alt="Salmão">
+                                    <h5 class="text-colored fw-bold mt-2">Radiador</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="ar-concionado">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/arcondicionado/limpeza-do-ar-condicionado-automotivo-33_orig.jpg" alt="limpeza">
+                                    <h5 class="text-colored fw-bold mt-2">higienização</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/arcondicionado/adobestock-58454528811-64ccfbb0a57eb-1_orig.jpg" alt="manutenção">
+                                    <h5 class="text-colored fw-bold mt-2">manutenção</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/arcondicionado/limpeza-do-ar-condicionado-automotivo-33_orig.jpg" alt="limpeza">
+                                    <h5 class="text-colored fw-bold mt-2">higienização</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/arcondicionado/adobestock-58454528811-64ccfbb0a57eb-1_orig.jpg" alt="manutenção">
+                                    <h5 class="text-colored fw-bold mt-2">manutenção</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. a provident vel nostrum odio velit?</p>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="orcamento" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Faça seu <span class="text-colored">orçamento</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste exemplo nº 145, Bairro bootstrap - Itajai - SC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="navbar p-1 d-flex justify-content-center">
+        <p class="m-0">GP centro automotivo - © todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
